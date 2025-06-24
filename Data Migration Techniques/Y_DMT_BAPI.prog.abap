@@ -144,7 +144,5 @@ START-OF-SELECTION.
 
 
   LOOP AT it_return INTO wa_return.
-
     WRITE : / wa_return-message.
-
   ENDLOOP.
