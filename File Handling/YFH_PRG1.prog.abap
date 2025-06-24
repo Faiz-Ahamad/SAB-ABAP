@@ -72,7 +72,6 @@ START-OF-SELECTION.
 * Implement suitable error handling here
   ENDIF.
 
-
   LOOP AT it_data INTO wa_data.
     WRITE : / wa_data-aid ,  wa_data-aname.
   ENDLOOP.
